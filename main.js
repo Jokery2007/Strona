@@ -1,0 +1,1 @@
+alert('Witaj na stronie Photoshopów aby przejść dalej kliknij w przycisk poniżej. Nie zapomnij wpaść na podstrone z Recenzjami Gier');
