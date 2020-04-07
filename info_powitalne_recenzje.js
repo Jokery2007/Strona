@@ -1,0 +1,1 @@
+alert('Dzięki , że tu wpadłeś. Kliknij przycisk poniżej by czytać moje recenzje!');
