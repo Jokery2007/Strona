@@ -1,5 +1,11 @@
-alert('Witaj na stronie Photoshopów aby przejść dalej kliknij w przycisk poniżej. Nie zapomnij wpaść na podstrone z Recenzjami Gier');
-console.log('Witaj na stronie Photoshopów aby przejść dalej kliknij w przycisk poniżej. Nie zapomnij wpaść na podstrone z Recenzjami Gier');
-let imie = 'Daniel';
-let wiek = 13
-console.log(`Mam na imie ${name} i mam ${wiek} lat `);
+
+let name = prompt ('Jeśli mogę wiedzieć podaj swoje imię : ');
+alert( `Witaj ${name}` );
+console.log(name);
+let wiek = prompt ('Wiek też potrzebuje : (Jest on wykorzystywany do analizy czy mogę cię wpuścić na tę stronę)')
+if(wiek<13){
+alert('Ta strona nie jest przeznaczona dla Ciebię poczekaj do ukończenia 13 roku życia (Wchodzisz tu na własną odpowiedzialność)')
+}
+else{
+    alert('Zapraszamy do smrodowa tu od smrodu boli głowa')
+}
