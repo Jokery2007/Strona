@@ -1,20 +1,25 @@
-
 h1{
-    color:blue
+    color:blue;
 }
-
 h2{
-    color:red
+    color:red;
 }
-
 h3{
-    color:turquoise
+    color:turquoise;
 }
-
 h4 {
-    color:pink
+    color:pink;
 }
-
 h5{
-    color:green
+    color:green;
+}
+.hero__button{
+background: wheat;
+padding :10px;
+min-width: 200px;
+border: 1px solid black;
+border-radius: 5px;
+font-family: 'Roboto' , sans-serif; 
+font-size : 20px;
+
 }
