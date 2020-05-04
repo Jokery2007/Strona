@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <main class="main">
+        <h1 class="title">Kalkulatorix :)</h1>-
+        <div class="calculator grid">
+            <p class="name">Nokia 69</p>
+            <div class="battery">
+                <div class="battery-unit"></div>
+                <div class="battery-unit"></div>
+                <div class="battery-unit"></div>
+                <div class="battery-unit"></div>
+            </div>
+            <input type="number" class="display" readonly placeholder="Czas kalkulować!"></input>
+
+            <button class="button button__function button__clr button__clr--js" value="clr">Czyszczonko</button>
+            <button class="button button__op button__op--js" value="/">&divide;</button>
+
+            <button class="button button__num--js" value="1">1</button>
+            <button class="button button__num--js" value="2">2</button>
+            <button class="button button__num--js" value="3">3</button>
+            <button class="button button__op button__op--js" value="*">&times;</button>
+
+            <button class="button button__num--js" value="4">4</button>
+            <button class="button button__num--js" value="5">5</button>
+            <button class="button button__num--js" value="6">6</button>
+            <button class="button button__op button__op--js" value="+">&plus;</button>
+
+            <button class="button button__num--js" value="7">7</button>
+            <button class="button button__num--js" value="8">8</button>
+            <button class="button button__num--js" value="9">9</button>
+            <button class="button button__op button__op--js" value="-">&minus;</button>
+
+            <button class="button button__num button__num--js " value=".">.</button>
+            <button class="button button__num--js" value="0">0</button>
+            <button class="button button__function button__sum button__sum--js" value="=">&equals;</button>
+        </div>
+    </main>
+    <script src="kalkulator.js"></script>
+</body>
+
+</html>
