@@ -1,0 +1,114 @@
+h1{
+    color: cyan;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+body {
+    
+    background: radient-gradient(magenta 50% cyan 50%);
+    margin: 0 auto;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background: tomato;
+    width: 400px;
+    box-shadow: 0px 0px 10px rgba(145, 10, 235, 0.774);
+}
+
+.name {
+    margin: auto 0;
+    color: gainsboro;
+    font-size: 1.5em;
+    grid-column: span 3;
+}
+
+.battery {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background: rgb(17, 17, 17);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2px;
+    height: 30px;
+}
+
+.battery-unit {
+    background:green;
+}
+
+.display {
+    grid-column: span 4;
+    background: rgb(182, 182, 109);
+    text-align: right;
+    border: none;
+    box-shadow: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(rgb(25, 19, 77),);
+    font-size: 2em;
+    margin: 10px 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.button {
+    border: none;
+    background: darkgray;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+button:hover {
+    background: orangered;
+}
+
+.button__function {
+    background: purple;
+}
+
+.button__op {
+    background: cyan;
+}
+
+.button__clr {
+    grid-column: span 3;
+}
+
+.button__sum {
+    grid-column: span 2;
+}
+
+.title {
+    color: cyan;
+    font-size: 5em;
+    margin: 0 0 50px 0;
+}

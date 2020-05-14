@@ -1,0 +1,6 @@
+.video{
+    position: fixed;
+    min-width: 25%;
+    min-height: 50%;
+    left: 200px;
+}
